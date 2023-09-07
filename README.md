@@ -1,5 +1,5 @@
 # testrep
-Lena
+Lena Kellner
 
 In Terminal after every change:
 git add * (or git add file1 file2 ...)
