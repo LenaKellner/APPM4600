@@ -7,3 +7,5 @@ y=np.arange(1,3,0.5, dtype=int)
 plt.plot(x)
 plt.plot(y)
 plt.show()
+
+#that's my first try in programming!
