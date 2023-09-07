@@ -11,6 +11,4 @@ In Terminal before every change:
 git pull (to get the remote changes of colleagues)
 
 Other interesting tips: Lab2!
-Test
-TEst 2
-Test 3
+Office Hours Nico: Th 11:10 - 1:10 and Th 3:45-4:45 in ECCR 215
