@@ -1,0 +1,499 @@
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\kelln>cd C:\Users\kelln\OneDrive\Desktop\Github
+
+C:\Users\kelln\OneDrive\Desktop\Github>git clone git@github.com:LenaKellner/testrep.git
+Cloning into 'testrep'...
+The authenticity of host 'github.com (140.82.112.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\kelln\OneDrive\Desktop\Github>cd
+C:\Users\kelln\OneDrive\Desktop\Github
+
+C:\Users\kelln\OneDrive\Desktop\Github>git clone git@github.com:LenaKellner/testrep.git
+Cloning into 'testrep'...
+The authenticity of host 'github.com (140.82.114.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\kelln\OneDrive\Desktop\Github>git push
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\kelln\OneDrive\Desktop\Github>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\desktop-tutorial
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\desktop-tutorial>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+warning: in the working copy of 'Lab/Lab 1/testDot.py', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "Added directories from lab 1"
+[main c2c1559] Added directories from lab 1
+ 15 files changed, 101 insertions(+)
+ create mode 100644 Homework/HW1.1i.png
+ create mode 100644 Homework/HW1.1i.py
+ create mode 100644 Homework/HW1.1ii.png
+ create mode 100644 Homework/HW1.1ii.py
+ create mode 100644 Homework/HW1.1iii.txt
+ create mode 100644 Homework/appm4600_f23_hw1.pdf
+ create mode 100644 Lab/Allgemein.docx
+ create mode 100644 Lab/Lab 1/Ex1.py
+ create mode 100644 Lab/Lab 1/Figure 3.1.3 Plotting.png
+ create mode 100644 Lab/Lab 1/Figure Ex1.png
+ create mode 100644 Lab/Lab 1/Plotting.py
+ create mode 100644 Lab/Lab 1/lab1.pdf
+ create mode 100644 Lab/Lab 1/testDot.py
+ create mode 100644 Lab/Lab 2/lab2.pdf
+ create mode 100644 Lab/PreLab2.PNG
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (20/20), 531.72 KiB | 17.15 MiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LenaKellner/testrep.git
+   4a8128c..c2c1559  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git pull
+Already up to date.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git stash
+No local changes to save
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git checkout file
+error: pathspec 'file' did not match any file(s) known to git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git checkout Figure Ex1
+error: pathspec 'Figure' did not match any file(s) known to git
+error: pathspec 'Ex1' did not match any file(s) known to git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep\Lab\Lab 1
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep\Lab\Lab 1>git checkout Figure Ex1
+error: pathspec 'Figure' did not match any file(s) known to git
+error: pathspec 'Ex1' did not match any file(s) known to git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep\Lab\Lab 1>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep\
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git committ
+git: 'committ' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m
+error: switch `m' requires a value
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "Added directories from lab 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+To https://github.com/LenaKellner/testrep.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/LenaKellner/testrep.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 742 bytes | 82.00 KiB/s, done.
+From https://github.com/LenaKellner/testrep
+   c2c1559..29d711f  main       -> origin/main
+Updating c2c1559..29d711f
+Fast-forward
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git stash
+No local changes to save
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "comment"
+[main dc2a4a0] comment
+ 1 file changed, 3 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/LenaKellner/testrep.git
+   29d711f..dc2a4a0  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 665 bytes | 73.00 KiB/s, done.
+From https://github.com/LenaKellner/testrep
+   dc2a4a0..c9b578a  main       -> origin/main
+Updating dc2a4a0..c9b578a
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 829 bytes | 92.00 KiB/s, done.
+From https://github.com/LenaKellner/testrep
+   c9b578a..686dbbb  main       -> origin/main
+Updating c9b578a..686dbbb
+Fast-forward
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep> git clone git@github.com:username/testrep.git testrep2
+Cloning into 'testrep2'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git clone git@github.com:username/testrep.git testrep2
+Cloning into 'testrep2'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git clone git@github.com:username/testrep.git testrep2
+Cloning into 'testrep2'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git clone git@github.com:LenaKellner/testrep.git testrep2
+Cloning into 'testrep2'...
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (35/35), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 35 (delta 7), reused 22 (delta 2), pack-reused 0
+Receiving objects: 100% (35/35), 534.51 KiB | 2.89 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git add *
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "comment"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>commit -a -m "comment"
+'commit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "comment"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git commit -a -m "comment"
+[main ee92d4b] comment
+ 1 file changed, 2 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 503 bytes | 503.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:LenaKellner/testrep.git
+   686dbbb..ee92d4b  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git add *
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>cdC:\Users\kelln\OneDrive\Dokumente\GitHub>testrep
+Access is denied.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>cd C:\Users\kelln\OneDrive\Dokumente\GitHub>testrep
+Access is denied.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 3), reused 5 (delta 3), pack-reused 0
+Unpacking objects: 100% (5/5), 483 bytes | 30.00 KiB/s, done.
+From https://github.com/LenaKellner/testrep
+   686dbbb..ee92d4b  main       -> origin/main
+Updating 686dbbb..ee92d4b
+Fast-forward
+ Lab/Lab 1/Ex1.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "comment"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git commit -a -m "comment"
+[main f48efea] comment
+ 1 file changed, 3 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/LenaKellner/testrep.git
+   ee92d4b..f48efea  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git add .
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git commit -a -m "comment"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push
+To github.com:LenaKellner/testrep.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:LenaKellner/testrep.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 285 bytes | 28.00 KiB/s, done.
+From github.com:LenaKellner/testrep
+   ee92d4b..f48efea  main       -> origin/main
+Updating ee92d4b..f48efea
+Fast-forward
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git add *
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git commit -a -m "comment"
+[main e1dcd79] comment
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:LenaKellner/testrep.git
+   f48efea..e1dcd79  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git reset
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git checkout testrep2
+error: pathspec 'testrep2' did not match any file(s) known to git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git push --all
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>git branch -r
+  origin/HEAD -> origin/main
+  origin/main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep2>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git clone git@github.com:Lena Kellner/testrep.git testrep2
+fatal: Too many arguments.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch> checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --also-filter-submodules
+                          apply partial clone filters to submodules
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+    --bundle-uri <uri>    a URI for downloading bundles before fetching from origin remote
+
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git clone git@github.com:LenaKellner/testrep.git testrep3
+Cloning into 'testrep3'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 46 (delta 14), reused 32 (delta 7), pack-reused 0
+Receiving objects: 100% (46/46), 535.37 KiB | 3.01 MiB/s, done.
+Resolving deltas: 100% (14/14), done.
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>git push
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub>cd C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git push
+Everything up-to-date
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git add .
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git commit -a
+[main e1ba9dd] i df
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git commit -a -m "comment"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:LenaKellner/testrep.git
+   e1dcd79..e1ba9dd  main -> main
+
+C:\Users\kelln\OneDrive\Dokumente\GitHub\testrep3>
