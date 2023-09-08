@@ -1,3 +1,0 @@
-It should plot the same function. At i) the multiplied form of the term is used and at ii) the short form is used. 
-I cannot say, why the Plots are different.
-The first Plot is not correct, because (2-2)^9 = 0 and not -512.
