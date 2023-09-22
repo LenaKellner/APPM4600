@@ -16,7 +16,7 @@ def driver():
 
     [astar,ier, iterations] = bisection(f,a,b,tol)
     print('the approximate root is',astar)
-    print('the error message reads:',ier)
+    print('the error message reads:',ier) 
     print('f(astar) =', f(astar))
     print ("The resulting final approximation is", astar)
     print ("The total number of iterations is", iterations)

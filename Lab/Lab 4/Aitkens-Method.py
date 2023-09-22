@@ -36,5 +36,6 @@ def aitkens(seq0, tol, Nmax):
             ier = 0
             return [xstar, seqa, ier, count]
         count = count + 1
-    xstar = pn_aier = 1
+    xstar = pn_a
+    ier = 1
     return [xstar, seqa, ier, count]
