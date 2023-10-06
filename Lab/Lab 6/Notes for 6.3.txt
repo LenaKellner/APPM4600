@@ -1,0 +1,5 @@
+Instead of partial derivative df/dx use the approximation
+Use code from Prelab and fill it into Jacobean at each step - so newton stays same
+put subroutine: about putting h in new and new
+
+Once I have this: calculate the same with two different h (0.1 and 0.01) and thats it
